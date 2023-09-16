@@ -102,6 +102,7 @@ nav.navbar {
   top: 0;
   z-index: 9999;
   transition: 0.32s ease-in-out;
+  background-color: #000;
 }
 /* @media (max-width: 767px) {
   nav.navbar {
