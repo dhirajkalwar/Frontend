@@ -106,7 +106,7 @@ function Teams() {
       imgUrl: wcWebImg2,
     },
     {
-      title: "Harsh Upadhayay",
+      title: "Harsh Upadhyay",
       description: "Technical Team",
       imgUrl: wcTechImg1,
     },
