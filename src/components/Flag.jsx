@@ -66,7 +66,7 @@ const Flag = () => {
                             <button
                                 type="submit"
                                 onClick={handleRegSubmit}
-                                className="w-full bg-green-400 hover:bg-green-500 text-black font-semibold py-2 px-4 rounded"
+                                className="w-full bg-green-400 hover:bg-green-500 text-black font-semibold py-2 px-4 rounded btn btn-shadow btn-success"
                             >
                                 Verify
                             </button>
@@ -141,7 +141,7 @@ const Flag = () => {
                             <button
                                 type="submit"
                                 onClick={handleEmailNameFlagSubmit}
-                                className="w-full bg-green-400 hover:bg-green-500 text-black font-semibold py-2 px-4 rounded"
+                                className="w-full bg-green-400 hover:bg-green-500 text-black font-semibold py-2 px-4 rounded btn btn-shadow btn-success"
                             >
                                 Submit
                             </button>
