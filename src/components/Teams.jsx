@@ -60,7 +60,7 @@ function Teams() {
       imgUrl: srPrImg,
     },
     {
-      title: "Kaushal",
+      title: "Kaushal Agarwal",
       description: "Treasurer",
       imgUrl: projImg2,
     },
@@ -171,7 +171,6 @@ function Teams() {
     <section className="project" id="project">
       <NavBar />
       <Container>
-        {/* <Row> */}
         <Col>
           <TrackVisibility>
             {({ isVisible }) => (
