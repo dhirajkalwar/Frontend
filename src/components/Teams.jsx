@@ -56,7 +56,7 @@ function Teams() {
     },
     {
       title: "Harshit Pandey",
-      description: "Outreach Head",
+      description: "Outreach Manager",
       imgUrl: srPrImg,
     },
     {
