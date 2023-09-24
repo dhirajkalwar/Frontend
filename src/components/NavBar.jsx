@@ -29,8 +29,8 @@ function NavBar() {
 
   return (
     <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
-      <Container>
-        <Navbar.Brand href="#">
+      <Container className="custom-nav">
+        <Navbar.Brand href="/">
           <img src={logo} alt="Logo" className="imgStyle" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav">

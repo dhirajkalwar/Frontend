@@ -5,7 +5,6 @@ import { ArrowRightCircle, Hash } from "react-bootstrap-icons";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 import { HashLink } from "react-router-hash-link";
-
 function Banner() {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
@@ -16,7 +15,8 @@ function Banner() {
   const period = 2000;
 
   useEffect(() => {
-    let ticker = setInterval(() => {``
+    let ticker = setInterval(() => {
+      ``;
       tick();
     }, delta);
 
@@ -82,9 +82,9 @@ function Banner() {
                     type specimen book.
                   </p>
                   <HashLink to="#connect">
-                  <button onClick={() => console.log("connect")}>
-                    Let’s Connect <ArrowRightCircle size={25} />
-                  </button>
+                    <button onClick={() => console.log("connect")}>
+                      Let’s Connect <ArrowRightCircle size={25} />
+                    </button>
                   </HashLink>
                 </div>
               )}

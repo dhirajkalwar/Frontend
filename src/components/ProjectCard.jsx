@@ -2,7 +2,7 @@ import { Col } from "react-bootstrap";
 
 function ProjectCard({ title, description, imgUrl }) {
   return (
-    <Col size={12} sm={6} md={4}>
+    <div className=" flex justify-center items-center ">
       <div className="proj-imgbx">
         <img src={imgUrl} />
         <div className="proj-txtx">
@@ -10,7 +10,9 @@ function ProjectCard({ title, description, imgUrl }) {
           <span>{description}</span>
         </div>
       </div>
-    </Col>
+    </div>
+      
+      
   );
 }
 export default ProjectCard;

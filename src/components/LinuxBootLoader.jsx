@@ -60,13 +60,15 @@ const LinuxBootLoader = () => {
   };
   useEffect(() => {
     const bootTimer = setInterval(() => {
-      goScrollToBottom();
-      if (bootProgress < bootMessages.length - 1) {
+      if (bootProgress < bootMessages.length) {
         setBootProgress((prevProgress) => prevProgress + 1);
+        goScrollToBottom();
       } else {
         clearInterval(bootTimer);
+        console.log(33);
       }
-      if (bootProgress > 3) {
+
+      if (bootProgress > 2) {
         setDelay(10);
       }
     }, Delay);
@@ -77,7 +79,7 @@ const LinuxBootLoader = () => {
   return (
     <div className="terminal">
       <div className="body">
-        <div className="output">
+        <div className="output font-Pt">
           {bootMessages.slice(0, bootProgress + 1).map((message, index) => (
             <div key={index} className="message">
               <span className="prompt text-[#00FF33]">[root@localhost ~] </span>

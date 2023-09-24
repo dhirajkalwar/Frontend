@@ -1,53 +1,178 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import ProjectCard from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import projImg1 from "../assets/img/Sr-core-img/webMaster.png"
+import projImg2 from "../assets/img/Sr-core-img/treasurer.png";
+import projImg3 from "../assets/img/Sr-core-img/Tech-head.png";
+import srSecImg from "../assets/img/Sr-core-img/secretary.png";
+import srPrImg from "../assets/img/Sr-core-img/srPR.png"
+import srEmImg from "../assets/img/Sr-core-img/em.png"
+import jrOutreachImg from "../assets/img/Jr-core-img/jrOutreachImg.png"
+import jrSecImg from "../assets/img/Jr-core-img/jrSec.png";
+import eventCordImg from "../assets/img/Jr-core-img/eventCord.png";
+import webLeadImg from "../assets/img/Jr-core-img/webLead.png";
+import jrCreativeImg from "../assets/img/Jr-core-img/jrCreative.png"
+import wcWebImg1 from "../assets/img/Wc-img/web1.png";
+import wcWebImg2 from "../assets/img/Wc-img/web2.png";
+import wcTechImg1 from "../assets/img/Wc-img/tech1.png";
+import wcTechImg2 from "../assets/img/Wc-img/tech2.png";
+import wcCreativeImg1 from "../assets/img/Wc-img/creative1.png";
+import wcCreativeImg2 from "../assets/img/Wc-img/creative2.png";
+import wcCreativeImg3 from "../assets/img/Wc-img/creative3.png";
+import wcOreachImg1 from "../assets/img/Wc-img/outreach1.png";
+import wcOreachImg2 from "../assets/img/Wc-img/outreach2.png";
+import wcOreachImg3 from "../assets/img/Wc-img/outreach3.png";
+import wcOreachImg4 from "../assets/img/Wc-img/outreach5.png";
+import wcOreachImg5 from "../assets/img/Wc-img/outreach4.png";
+import wcOreachImg6 from "../assets/img/Wc-img/outreach6.png";
+import wcOreachImg7 from "../assets/img/Wc-img/outreach7.png";
+
+
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 import NavBar from "./NavBar";
 import Footer from "./Footer";
 
 function Teams() {
-  const projects = [
+  const srTeams = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
+      title: "Rhea Rajput",
+      description: "Secratery",
+      imgUrl: srSecImg,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
+      title: "Sharez Shaikh",
+      description: "Event Manager",
+      imgUrl: srEmImg,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Shivam Mishra",
+      description: "Technical Head",
       imgUrl: projImg3,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Vaibhav Singh",
+      description: "Web Master",
       imgUrl: projImg1,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
+      title: "Harshit Pandey",
+      description: "Outreach Head",
+      imgUrl: srPrImg,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
+      title: "Kaushal",
+      description: "Treasurer",
+      imgUrl: projImg2,
     },
   ];
 
+  const jrTeams = [
+    {
+      title: "Lakshya Singh",
+      description: "Jr. Secratery",
+      imgUrl: jrSecImg,
+    },
+    {
+      title: "Dhiraj Kalwar",
+      description: "Event Coordinator",
+      imgUrl: eventCordImg,
+    },
+    {
+      title: "Soorya Srihari",
+      description: "Web Lead",
+      imgUrl: webLeadImg,
+    },
+    {
+      title: "Sharad Pandey",
+      description: "Outreach Coordinator",
+      imgUrl: jrOutreachImg,
+    },
+    {
+      title: "Saumya Maheshwari",
+      description: "Creative Lead",
+      imgUrl: jrCreativeImg,
+    },
+  ];
+
+  const wkTeams = [
+    {
+      title: "Amir Kamal",
+      description: "Web Team",
+      imgUrl: wcWebImg1,
+    },
+    {
+      title: "Aman Sharma",
+      description: "Web Team",
+      imgUrl: wcWebImg2,
+    },
+    {
+      title: "Harsh Upadhayay",
+      description: "Technical Team",
+      imgUrl: wcTechImg1,
+    },
+    {
+      title: "Sujal Dyavanapelli",
+      description: "Technical Team",
+      imgUrl: wcTechImg2,
+    },
+    {
+      title: "Aditya Maurya",
+      description: "Creative Team",
+      imgUrl: wcCreativeImg1,
+    },
+    {
+      title: "Siddharth Babel",
+      description: "Creative Team",
+      imgUrl: wcCreativeImg2,
+    },
+    {
+      title: "Tanmay Baur",
+      description: "Creative Team",
+      imgUrl: wcCreativeImg3,
+    },
+    {
+      title: "Bhargav Nadiyana",
+      description: "Outreach Team",
+      imgUrl: wcOreachImg1,
+    },
+    {
+      title: "Chinmay Alekar",
+      description: "Outreach Team",
+      imgUrl: wcOreachImg2,
+    },
+    {
+      title: "Yagyesh yadav",
+      description: "Outreach Team",
+      imgUrl: wcOreachImg3,
+    },
+    {
+      title: "Oshi Jamindar",
+      description: "Outreach Team",
+      imgUrl: wcOreachImg4,
+    },
+    {
+      title: "Harsh Ghume",
+      description: "Outreach Team",
+      imgUrl: wcOreachImg5,
+    },  
+    {
+      title: "Shreya Mishra",
+      description: "Outreach Team",
+      imgUrl: wcOreachImg6,
+    },
+    {
+      title: "Ashutosh Goswamy",
+      description: "Outreach Team",
+      imgUrl: wcOreachImg7,
+    },  
+    
+  ];
   return (
     <section className="project" id="project">
       <NavBar />
       <Container>
-        <Row>
-          <Col size={12}>
+        {/* <Row> */}
+          <Col >
             <TrackVisibility>
               {({ isVisible }) => (
                 <div
@@ -86,25 +211,27 @@ function Teams() {
                       }
                     >
                       <Tab.Pane eventKey="first">
-                        <Row>
-                          {projects.map((project, index) => {
-                            return <ProjectCard key={index} {...project} />;
+                        <div className=" grid grid-cols-3 gap-x-3 my-[50px] gap-y-11 ">
+                        {srTeams.map((team, index) => {
+                            return <ProjectCard key={index} {...team} />;
                           })}
-                        </Row>
+                        </div>
+                          
+                        
                       </Tab.Pane>
                       <Tab.Pane eventKey="second">
-                        <Row>
-                          {projects.map((project, index) => {
-                            return <ProjectCard key={index} {...project} />;
+                      <div className=" grid grid-cols-3 gap-x-3 sr-team my-[50px] gap-y-11 ">
+                          {jrTeams.map((team, index) => {
+                            return <ProjectCard key={index} {...team} />;
                           })}
-                        </Row>
+                        </div>
                       </Tab.Pane>
                       <Tab.Pane eventKey="third">
-                        <Row>
-                          {projects.map((project, index) => {
-                            return <ProjectCard key={index} {...project} />;
+                      <div className=" grid grid-cols-3 gap-x-3 my-[50px] gap-y-11 ">
+                          {wkTeams.map((team, index) => {
+                            return <ProjectCard key={index} {...team} />;
                           })}
-                        </Row>
+                        </div>
                       </Tab.Pane>
                     </Tab.Content>
                   </Tab.Container>
@@ -112,7 +239,7 @@ function Teams() {
               )}
             </TrackVisibility>
           </Col>
-        </Row>
+        {/* </Row> */}
       </Container>
       <Footer />
     </section>
