@@ -57,7 +57,7 @@ function Events() {
                       </Nav.Item>
                       <Nav.Item>
                         <Nav.Link id="past-event" eventKey="second">
-                          Past Event
+                          Previous Event
                         </Nav.Link>
                       </Nav.Item>
                     </Nav>
