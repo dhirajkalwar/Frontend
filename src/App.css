@@ -99,7 +99,11 @@ nav.navbar {
   padding: 0;
   -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(8px);
-  position: fixed;
+  position: relative;
+  top: 20%;
+  /* position: fixed; */
+  top: 0;
+  left: 0;
   width: 100%;
   top: 0;
   z-index: 9999;
@@ -110,6 +114,7 @@ nav.navbar {
 nav.navbar.scrolled {
   padding: 0;
   background-color: transparent;
+  position: fixed;
 }
 nav.navbar a.navbar-brand {
   width: 100px;
@@ -254,18 +259,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Banner Css ************/
 .banner {
-  margin-top: 0;
-  padding: 300px 0 100px 0;
-  /* background-image: url("./assets/img/banner-bg.png"); */
-  background-position: top center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  /* background-image: linear-gradient( to bottom right, #17a33d,rgb(15, 0, 11)); */
+  margin-top: 0px;
+  padding: 50px 0 100px 0;
   background-color: #121212;
+  scroll-behavior: smooth;
 }
 @media (min-width: 768px) {
   .banner {
-    padding: 200px 0 100px 0;
+    margin-top: 10px;
+    padding: 100px 0 100px 0;
   }
 }
 .banner .tagline {
@@ -497,14 +499,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Teams Css ************/
 .project {
-  padding-top: 20px;
-  margin-top: 300px;
-  position: relative;
+  padding-top: 0px;
+  margin-top: 0px;
   background-color: #191818;
 }
 @media (min-width: 768px) {
   .project {
-    margin-top: 140px;
+    margin-top: 0px;
   }
 }
 .project h2 {

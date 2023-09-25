@@ -169,7 +169,7 @@ function Teams() {
   ];
   return (
     <section className="project" id="project">
-      <NavBar />
+      <NavBar/>
       <Container>
         <Col>
           <TrackVisibility>
@@ -205,36 +205,34 @@ function Teams() {
                     id="slideInUp"
                     className={
                       isVisible ? "animate__animated animate__slideInUp" : ""
-                    }
-                  >
+                    }>
                     <Tab.Pane eventKey="first">
-                      <div className=" grid  grid-cols-2 md:grid-cols-3 gap-x-3 my-[50px] gap-y-11 ">
-                        {srTeams.map((team, index) => {
-                          return <ProjectCard key={index} {...team} />;
-                        })}
-                      </div>
-                    </Tab.Pane>
-                    <Tab.Pane eventKey="second">
-                      <div className=" grid grid-cols-2 md:grid-cols-3 gap-x-3 sr-team my-[50px] gap-y-11 ">
-                        {jrTeams.map((team, index) => {
-                          return <ProjectCard key={index} {...team} />;
-                        })}
-                      </div>
-                    </Tab.Pane>
-                    <Tab.Pane eventKey="third">
-                      <div className=" grid grid-cols-2 md:grid-cols-3 gap-x-3 my-[50px] gap-y-11 ">
-                        {wkTeams.map((team, index) => {
-                          return <ProjectCard key={index} {...team} />;
-                        })}
-                      </div>
-                    </Tab.Pane>
+                        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-3 my-6 md:my-[50px] gap-y-11">
+                          {srTeams.map((team, index) => {
+                            return <ProjectCard key={index} {...team} />;
+                          })}
+                        </div>
+                      </Tab.Pane>
+                      <Tab.Pane eventKey="second">
+                        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-3 my-6 md:my-[50px] gap-y-11">
+                          {jrTeams.map((team, index) => {
+                            return <ProjectCard key={index} {...team} />;
+                          })}
+                        </div>
+                      </Tab.Pane>
+                      <Tab.Pane eventKey="third">
+                        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-3 my-6 md:my-[50px] gap-y-11">
+                          {wkTeams.map((team, index) => {
+                            return <ProjectCard key={index} {...team} />;
+                          })}
+                        </div>
+                      </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
               </div>
             )}
           </TrackVisibility>
         </Col>
-        {/* </Row> */}
       </Container>
       <Footer />
     </section>
