@@ -179,8 +179,8 @@ const Flag = () => {
                                 className="w-full border p-2 rounded bg-gray-800 text-green-400"
                             />
                         </div>
-                        <button  onClick={formSubmit} className={`w-full bg-green-400 hover:bg-green-500 text-black font-semibold py-2 px-4 rounded btn btn-shadow btn-success ${loading ? 'opacity-50 cursor-not-allowed' : ''}`}>
-              {loading ? 'Submitting..' : 'Submit'}
+                        <button type="submit" onClick={formSubmit} className={`w-full bg-green-400 hover:bg-green-500 text-black font-semibold py-2 px-4 rounded btn btn-shadow btn-success${loading ? 'opacity-50 cursor-not-allowed' : ''}`}>
+              {loading ? 'Loading...' : 'Submit'}
             </button>
                     </div>
                 </div>
