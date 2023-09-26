@@ -38,11 +38,7 @@ function Events() {
                 >
                   <h2>Events</h2>
                   <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book.
+                  Stay up-to-date with the latest in cybersecurity at OWASP TCET's events section. Explore our diverse calendar of webinars, conferences, and workshops, featuring industry experts and thought leaders. Join us in elevating your cybersecurity knowledge and network with like-minded professionals.
                   </p>
                   <Tab.Container id="events-tabs" defaultActiveKey="first">
                     <Nav
@@ -79,11 +75,7 @@ function Events() {
                       </Tab.Pane>
                       <Tab.Pane eventKey="second">
                         <p>
-                          Lorem Ipsum is simply dummy text of the printing and
-                          typesetting industry. Lorem Ipsum has been the
-                          industry's standard dummy text ever since the 1500s,
-                          when an unknown printer took a galley of type and
-                          scrambled it to make a type specimen book.
+                        Prepare for an exhilarating 3-day cybersecurity event at OWASP TCET’s Capture The Flag (CTF). Day 1 kicks off with four accessible machines which remain live till day 2. Top 10 participants qualify for an intense experience with machine 5 set to hard mode. It’s a compact yet comprehensive journey to enhance your cybersecurity skills. Join us for this exciting CTF adventure!
                         </p>
                       </Tab.Pane>
                     </Tab.Content>

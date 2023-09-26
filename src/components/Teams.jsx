@@ -179,11 +179,7 @@ function Teams() {
               >
                 <h2>Our Team</h2>
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type and scrambled it to make a type
-                  specimen book.
+                Our dedicated team is at the heart of what we do. Committed to promoting and organizing tech events, we’re passionate about creating opportunities for tech enthusiasts to connect, learn, and innovate. Get to know the faces behind our successful tech gatherings.
                 </p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav
