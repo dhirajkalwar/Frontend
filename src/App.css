@@ -100,10 +100,6 @@ nav.navbar {
   -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(8px);
   position: relative;
-  top: 20%;
-  /* position: fixed; */
-  top: 0;
-  left: 0;
   width: 100%;
   top: 0;
   z-index: 9999;
@@ -791,6 +787,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-image: url("./assets/img/wp2726699.jpg");
   background-size: cover;
   background-blend-mode: soft-light;
+  margin: 0;
 }
 
 .hexa {
