@@ -33,7 +33,7 @@ const Flag = () => {
     if (allRegNo.includes(parseFloat(regNo))) {
       setStep(step + 1);
     } else {
-      alert("Invalid Reg No .......");
+      alert("Invalid Reg No!");
     }
   };
 
@@ -65,7 +65,7 @@ const Flag = () => {
         // Handle success here
         setStep(step + 1);
       } else {
-        alert("Invalid Flag"); // You can show an error message based on your response
+        alert("Invalid Flag!"); // You can show an error message based on your response
       }
     } catch (error) {
       // Handle errors here
