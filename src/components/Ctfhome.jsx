@@ -81,13 +81,8 @@ function Ctfhome() {
           <div className="flex flex-col gap-5 mb-10 text-3xl md:text-5xl md:justify-center font-600">
             CTF Description
             <p className="text-2xl md:w-3/4 md:mx-auto">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            Capture The Flag (CTF) is a cybersecurity competition where individuals or teams solve diverse security challenges to find hidden “flags.” Challenges include exploiting vulnerabilities, cryptography, and more. Each task earns points, and participants compete to accumulate the most points within a set time frame. CTFs promote skill development and community networking.
+
             </p>
           </div>
 
